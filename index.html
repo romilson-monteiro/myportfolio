@@ -31,16 +31,17 @@
         </nav>
     </header>
     
-    <div class="container">
+    <div id="home" class="container">
         <section class="hero">
             <div class="left-content">
                 <p class="hi-text">Hi, I am </p> <!-- Alterado para <p> -->
                     <h1>Romilson Monteiro</h1>
                     <p>Front-end Developer / UI Designer</p>
                     <div class="actions-btn">
-                        <button class="btn-primary">View Portfolio</button>
-                        <button class="btn-secondary">Contact Me</button>
+                        <a href="portfolio.html" class="btn-primary">View Portfolio</a>
+                        <a href="#contact" class="btn-secondary">Contact Me</a>
                     </div>
+                    
                 
                     <div class="social-icons">
                         <a href="mailto:romilsonmonteir@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
@@ -57,7 +58,12 @@
         </section>
         <section id="about" class="about-section">
             <div class="about-container">
-                <h2 class="about-title">About Me</h2>
+                <div class="skills-header">
+                    <div class="skills-title-box">
+                        <h2 class="about-title">About Me</h2>
+                    </div>
+                </div>
+               
                 <p class="about-intro">
                     Hello! I’m a passionate Developer with a love for solving complex problems and creating innovative solutions.
                 </p>
@@ -212,23 +218,48 @@
             </div>
         </section>
         
-        <section id="portfolio" class="section">
-            <h2>Portfolio</h2>
-            <p>Here are some of my recent projects. Check them out!</p>
+       
+        <section id="contact" class="contact-section">
+            <a href="#home"  id="backToTop" class="back-to-top" title="Back to top">
+                <i class="fas fa-chevron-up"></i>
+            </a>
+            <div class="contact-container">
+               
+                <h1 class="contact-title">Let's <span>build</span> something amazing together!</h1>
+                <a href="mailto:romilsonmonteir@gmail.com" class="contact-email">romilsonmonteir@gmail.com</a>
+                
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/romilson-tavares-monteiro/" target="_blank">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/romilson-monteiro" target="_blank">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                    <a href="mailto:romilsonmonteir@gmail.com" target="_blank">
+                        <i class="fas fa-envelope"></i> Email
+                    </a>
+                </div>
+            </div>
+           
+            
+          
         </section>
-
-        <section id="contact" class="section">
-            <h2>Contact Me</h2>
-            <p>Feel free to reach out via email or on LinkedIn!</p>
-        </section>
+        
+        
     </div>
 </body>
 <script>
     // Seleciona o header
     const header = document.querySelector('.header');
-
+    const backToTopButton = document.getElementById("backToTop");
+    const viewportHeight = window.innerHeight;
     // Adiciona evento de scroll
     window.addEventListener('scroll', () => {
+        if (window.scrollY > viewportHeight + (0.5 * viewportHeight)) {
+        backToTopButton.classList.add("show");
+    } else {
+        backToTopButton.classList.remove("show");
+    }
         if (window.scrollY > 50) { // Quando o scroll ultrapassar 50px
             header.classList.add('scrolled');
         } else {

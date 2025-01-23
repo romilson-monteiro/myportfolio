@@ -157,6 +157,11 @@ header.scrolled .nav ul li a:hover {
     gap: 15px;
 }
 
+.actions-btn a {
+    text-decoration: none;
+    
+}
+
 .actions-btn .btn-primary {
     background-color: #333;
     color: #fff;
@@ -394,26 +399,9 @@ header.scrolled .nav ul li a:hover {
     margin: auto;
 }
 
-.about-title {
-    font-size: 2.5em;
-    font-weight: 700;
-    margin-bottom: 20px;
-    color: #222;
-    text-transform: uppercase;
-    position: relative;
-}
-
-.about-title::after {
-    content: '';
-    display: block;
-    width: 60px;
-    height: 3px;
-    background: #007bff;
-    margin: 10px auto 0;
-}
 
 .about-intro {
-    font-size: 1.2em;
+    font-size: 1.4em;
     font-weight: 500;
     color: #555;
     margin-bottom: 20px;
@@ -424,4 +412,112 @@ header.scrolled .nav ul li a:hover {
     line-height: 1.8;
     color: #555;
     text-align: justify;
+}
+/* Contact Section *//* Contact Section */
+.contact-section {
+    padding: 30px 20px;
+    background-color: #121212; /* Fundo escuro */
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #f0f0f0;
+}
+
+.contact-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.contact-title {
+    font-size: 2.8em;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    color: #ffffff; /* Cor do título */
+}
+
+.contact-title span {
+    font-style: italic;
+    font-weight: 400;
+    color: #ff9900; /* Destaque */
+}
+
+.contact-email {
+    display: block;
+    font-size: 1.5em;
+    color: #cccccc;
+    text-decoration: none;
+    margin-bottom: 40px;
+    border-bottom: 2px solid #555555;
+    transition: color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.contact-email:hover {
+    color: #ffffff;
+    border-color: #ff9900;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.social-links a {
+    font-size: 1.2em;
+    color: #cccccc;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-links a i {
+    font-size: 1.5em;
+    color: #ff9900;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+    color: #ffffff;
+}
+
+.social-links a:hover i {
+    transform: scale(1.2);
+}
+
+#contact .skills-title-box {
+    border-color: #ffffff; 
+}
+/* Botão "Back to Top" */
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color:#ff9900;
+    color: #ffffff;
+    font-size: 1.5em;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+
+.back-to-top.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.back-to-top:hover {
+    background-color: #ff6600;
+    transform: scale(1.1);
 }

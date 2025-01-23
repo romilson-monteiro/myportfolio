@@ -1,0 +1,85 @@
+[
+    {
+        "id": 1,
+        "title": "Assistance Management System",
+        "class": "web hybrid",
+        "img_path": "img/projects/assistance-management.png",
+        "intro": "A hybrid platform for managing clients and assistance services.",
+        "description": "Development of a hybrid assistance management system using Blazor and SQL Server, designed to streamline client and assistance operations. The system supports client registration with detailed information such as addresses, contacts, and emails. Assistance services are tracked, including status updates, photographic records, labor, and materials. Features include detailed reporting on unpaid services and a user-friendly interface for efficient management. The solution is compatible with web, Windows, Mac, iOS, and Android platforms.",
+        "github_link": "https://github.com/your-repo/assistance-management-system",
+        "demo_link": "#"
+      },
+      {
+        "id": 2,
+        "title": "Asset Inventory with YOLOv8 and ArUco",
+        "class": "iot security",
+        "img_path": "img/projects/asset-inventory.png",
+        "intro": "Automated asset inventory system using YOLOv8 and ArUco markers.",
+        "description": "Developed a proof-of-concept system for automated asset inventory management, leveraging YOLOv8 for real-time object detection and ArUco markers for precise asset identification and tracking. Features include a robust backend and intuitive control panel.",
+        "github_link": "https://github.com/your-repo/asset-inventory",
+        "demo_link": "#"
+      }
+,      
+    {
+      "id": 3,
+      "title": "Multi-Access Auth System",
+      "class": "mobile security",
+      "img_path": "img/projects/multiaccess.png",
+      "intro": "Secure and advanced multi-modal authentication system using NFC and Biometrics.",
+      "description": "Developed a secure authentication system combining NFC technology with biometric data (fingerprint recognition) to provide advanced multi-factor security. Ensured seamless device compatibility, focusing on an intuitive user experience and robust protection. Extensively tested for accuracy and reliability of biometric data processing.",
+      "github_link": "https://github.com/your-repo/multi-access-auth-system",
+      "demo_link": "#"
+    },
+    {
+      "id": 4,
+      "title": "High Availability with Proxmox VE",
+      "class": "iot networking",
+      "img_path": "img/projects/proxmox.png",
+      "intro": "Reliable high-availability infrastructure using Proxmox VE.",
+      "description": "Designed and implemented a high-availability virtualized infrastructure using Proxmox VE, ensuring automatic failover and robust security. Integrated TrueNAS for shared storage and Proxmox Backup Server for comprehensive data protection.",
+      "github_link": "https://github.com/your-repo/ha-proxmox",
+      "demo_link": "#"
+    },
+    {
+      "id": 5,
+      "title": "Smart Lib - Mobile Library Management",
+      "class": "mobile",
+      "img_path": "img/projects/smartlib.png",
+      "intro": "Innovative mobile application for efficient library management.",
+      "description": "Developed an innovative mobile application for streamlined library management, allowing users to search, reserve, and manage books and accounts efficiently. Integrated real-time features such as book availability tracking, personalized reading suggestions, and push notifications.",
+      "github_link": "https://github.com/your-repo/smart-lib",
+      "demo_link": "#"
+    },
+    {
+      "id": 6,
+      "title": "Portugal WordPress Fingerprint",
+      "class": "web security",
+      "img_path": "img/projects/wordpress-analysis.png",
+      "intro": "Custom crawler to identify Portuguese WordPress websites.",
+      "description": "Created a Python-based crawler leveraging Google Hacking techniques (dorks) to passively identify WordPress sites and retrieve their versions, enabling effective analysis of website security.",
+      "github_link": "https://github.com/your-repo/wordpress-fingerprint",
+      "demo_link": "#"
+    },
+    {
+      "id": 7,
+      "title": "XSS Detection Using a Web Crawler",
+      "class": "web security",
+      "img_path": "img/projects/xss-detection.png",
+      "intro": "Efficient detection of XSS vulnerabilities in web applications.",
+      "description": "Developed a specialized web crawler for detecting Cross-Site Scripting (XSS) vulnerabilities in web applications using Python, Scrapy, and BeautifulSoup. The tool scans websites for common XSS patterns and compares its performance with other established tools like OWASP ZAP and Burp Suite.",
+      "github_link": "https://github.com/your-repo/xss-detection",
+      "demo_link": "#"
+    }
+    
+    ,{
+        "id": 8,
+        "title": "IoT Security System",
+        "class": "iot mobile",
+        "img_path": "img/projects/iots.png",
+        "intro": "IoT security system with sensors and remote control.",
+        "description": "Development of an IoT security system utilizing motion and light sensors for monitoring. Includes activation of a laser-based security system and the creation of a mobile application for remote control via MQTT. The system is designed to be efficient and easy to integrate into residential and industrial environments.",
+        "github_link": "https://github.com/your-repo/iot-security-system",
+        "demo_link": "#"
+      }
+  ]
+  
