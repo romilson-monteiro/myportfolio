@@ -53,22 +53,22 @@ header.scrolled {
 /* Links do menu padrão */
 .nav ul li a {
     text-decoration: none;
-    color: white; /* Branco por padrão */
-    font-weight: 600; /* Usar peso mais elegante */
+    color: white; 
+    font-weight: 600; 
     padding: 10px 15px;
-    transition: color 0.6s ease-in-out; /* Transição para a cor */
+    transition: color 0.6s ease-in-out; 
     font-size: 1em;
 }
 
 /* Links do menu ao fazer scroll */
 header.scrolled .nav ul li a {
-    color: #333; /* Cor mais escura ao fazer scroll */
-    transition: color 0.6s ease-in-out; /* Suavização da cor */
+    color:  #333;
+    transition: color 0.6s ease-in-out; 
 }
 
 header.scrolled .nav ul li a:hover {
-    color: #e9e9e9;
-    transition: color 0.3s ease-in-out; /* Suavização da cor */
+    color: #ff9900;
+    transition: color 0.3s ease-in-out; 
 }
 /* Links hover continuam iguais */
 .nav ul li a:hover {
@@ -86,10 +86,10 @@ header.scrolled .nav ul li a:hover {
 .nav ul li a {
     text-decoration: none;
     color: white;
-    font-weight: 600; /* Usar peso mais elegante */
+    font-weight: 600; 
     padding: 10px 15px;
     transition: background-color 0.3s;
-    font-size: 1em; /* Ajustar o tamanho da fonte */
+    font-size: 1em; 
 }
 
 .nav ul li a:hover {
@@ -97,7 +97,9 @@ header.scrolled .nav ul li a:hover {
     color: #fff;
     border-radius: 5px;
 }
-
+header .nav ul li a:hover {
+    color: #ff9900;
+}
 /* Hero Section */
 .hero {
     height: 100vh;
@@ -129,16 +131,16 @@ header.scrolled .nav ul li a:hover {
     font-size: 1em;
     margin-bottom: 20px;
     color: #777;
-    font-weight: 400; /* Texto mais leve */
+    font-weight: 400; 
 }
 .left-content .hi-text {
     margin-left: 20px;
-    font-size: 1.2em; /* Tamanho menor */
-    font-weight: 700; /* Negrito */
-    color: #333; /* Cor mais escura */
+    font-size: 1.2em; 
+    font-weight: 700;
+    color: #333; 
     margin-bottom: 0;
-    /* Todas maiúsculas */
-    letter-spacing: 1px; /* Adicionar espaçamento entre letras */
+   
+    letter-spacing: 1px; 
 }
 
 .left-content .social-icons {
@@ -152,7 +154,7 @@ header.scrolled .nav ul li a:hover {
 
 /* Botões de Ação */
 .actions-btn {
-    margin: 20px 0; /* Espaçamento acima e abaixo */
+    margin: 20px 0;
     display: flex;
     gap: 15px;
 }
@@ -175,7 +177,7 @@ header.scrolled .nav ul li a:hover {
 
 .actions-btn .btn-primary:hover {
     background-color: #555;
-    transform: scale(1.05); /* Leve ampliação */
+    transform: scale(1.05); 
 }
 
 .actions-btn .btn-secondary {
@@ -202,17 +204,17 @@ header.scrolled .nav ul li a:hover {
     align-items: center;
   
 
-    background-color: #333; /* Fundo do ícone */
-    color: #fff; /* Cor do ícone */
+    background-color: #333; 
+    color: #fff;
     padding: 10px;
-    border-radius: 50%; /* Forma circular */
-    font-size: 1.5em; /* Tamanho dos ícones */
+    border-radius: 50%;
+    font-size: 1.5em;
     transition: background-color 0.3s, transform 0.3s;
 }
 
 .social-icons a:hover {
-    background-color: #555; /* Cor de fundo ao hover */
-    transform: scale(1.1); /* Ampliar ligeiramente ao hover */
+    background-color: #555; 
+    transform: scale(1.1); 
 }
 
 .right-content {
@@ -249,7 +251,7 @@ header.scrolled .nav ul li a:hover {
 .section h2 {
     font-size: 2em;
     margin-bottom: 20px;
-    font-weight: 700; /* Destaque para o título */
+    font-weight: 700;
 }
 
 .section p {
@@ -257,7 +259,7 @@ header.scrolled .nav ul li a:hover {
     line-height: 1.5;
     max-width: 800px;
     margin: 0 auto 20px auto;
-    font-weight: 300; /* Texto mais leve */
+    font-weight: 300; 
 }
 
 .section a {
@@ -267,7 +269,7 @@ header.scrolled .nav ul li a:hover {
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    font-weight: 600; /* Botão mais visível */
+    font-weight: 600; 
 }
 
 .section a:hover {
@@ -290,7 +292,7 @@ header.scrolled .nav ul li a:hover {
     padding: 50px 20px;
     background: radial-gradient(circle, #FFFFFF, #D7D7D7);
     text-align: center;
-    font-family: 'Montserrat', sans-serif; /* Aplica a fonte Montserrat */
+    font-family: 'Montserrat', sans-serif; 
 }
 
 .skills-header {
@@ -316,7 +318,7 @@ header.scrolled .nav ul li a:hover {
 
 /* Skills Container */
 .skills-container {
-    max-width: 800px; /* Limitar largura */
+    max-width: 800px; 
     margin: auto;
     
 }
@@ -332,8 +334,8 @@ header.scrolled .nav ul li a:hover {
 /* Skills Grid */
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Exibir 4 itens por linha */
-    gap: 20px; /* Espaçamento entre os itens */
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px; 
     justify-content: center;
      align-items: center;
 }
@@ -344,21 +346,21 @@ header.scrolled .nav ul li a:hover {
 }
 
 .skill-item img {
-    width: 60px; /* Tamanho do ícone */
+    width: 60px; 
     height: 60px;
-    margin-bottom: 5px; /* Menor espaçamento entre ícone e texto */
+    margin-bottom: 5px;
     transition: transform 0.3s ease-in-out;
 }
 
 .skill-item img:hover {
-    transform: scale(1.1); /* Leve zoom no ícone ao passar o cursor */
+    transform: scale(1.1); 
 }
 
 .skill-item p {
-    font-size: 1em; /* Tamanho menor para o texto */
+    font-size: 1em; 
     color: #333;
-    font-weight: 400; /* Peso regular para o texto */
-    margin-top: 0; /* Remove espaçamento extra */
+    font-weight: 400; 
+    margin-top: 0;
 }
 
 /* Ajustes gerais */
@@ -372,16 +374,16 @@ header.scrolled .nav ul li a:hover {
 }
 
 .skill-item i {
-    font-size: 2.5em; /* Tamanho do ícone */
-    color: #333; /* Cor do ícone */
-    display: block; /* Mantém o ícone acima do texto */
-    margin-bottom: 10px; /* Espaçamento entre ícone e texto */
-    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out; /* Transições suaves */
+    font-size: 2.5em; 
+    color: #333; 
+    display: block; 
+    margin-bottom: 10px; 
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out; 
 }
 
 .skill-item i:hover {
-    transform: scale(1.2); /* Leve zoom ao passar o cursor */
-    color: #007bff; /* Muda a cor do ícone ao hover */
+    transform: scale(1.2); 
+    color: #007bff; 
 }
 
 
@@ -416,7 +418,7 @@ header.scrolled .nav ul li a:hover {
 /* Contact Section *//* Contact Section */
 .contact-section {
     padding: 30px 20px;
-    background-color: #121212; /* Fundo escuro */
+    background-color: #121212; 
     font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: #f0f0f0;
@@ -432,13 +434,13 @@ header.scrolled .nav ul li a:hover {
     font-weight: 700;
     line-height: 1.2;
     margin-bottom: 30px;
-    color: #ffffff; /* Cor do título */
+    color: #ffffff; 
 }
 
 .contact-title span {
     font-style: italic;
     font-weight: 400;
-    color: #ff9900; /* Destaque */
+    color: #ff9900; 
 }
 
 .contact-email {
