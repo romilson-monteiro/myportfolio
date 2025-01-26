@@ -21,6 +21,9 @@
             </div>
           
         </div>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+            <i class="fas fa-bars"></i>
+        </button>
         <nav class="nav">
             <ul>
                 <li><a href="#about">About Me</a></li>
@@ -32,22 +35,26 @@
     </header>
     
     <div id="home" class="container">
+       
         <section class="hero">
             <div class="left-content">
-                <p class="hi-text">Hi, I am </p> <!-- Alterado para <p> -->
+                <div class="hero-text">
+                    <p class="hi-text">Hi, I am </p>
                     <h1>Romilson Monteiro</h1>
                     <p>Front-end Developer / UI Designer</p>
-                    <div class="actions-btn">
-                        <a href="portfolio.html" class="btn-primary">View Portfolio</a>
-                        <a href="#contact" class="btn-secondary">Contact Me</a>
-                    </div>
-                    
+               
+                <div class="actions-btn">
+                    <a href="portfolio.html" class="btn-primary">View Portfolio</a>
+                    <a href="#contact" class="btn-secondary">Contact Me</a>
+                </div>
                 
-                    <div class="social-icons">
-                        <a href="mailto:romilsonmonteir@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
-                        <a href="https://github.com/romilson-monteiro" target="_blank"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/romilson-tavares-monteiro/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    </div>
+            </div>
+             
+                <div class="social-icons">
+                    <a href="mailto:romilsonmonteir@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                    <a href="https://github.com/romilson-monteiro" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/romilson-tavares-monteiro/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
                     
             </div>
             <div class="right-content">
@@ -249,6 +256,7 @@
     </div>
 </body>
 <script>
+    
     // Seleciona o header
     const header = document.querySelector('.header');
     const backToTopButton = document.getElementById("backToTop");
