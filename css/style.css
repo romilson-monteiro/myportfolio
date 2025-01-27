@@ -681,6 +681,8 @@ header .nav ul li a:hover {
 
 
 
+
+
 /* Responsividade: Menu para telas menores */
 @media (max-width: 768px) {
     header.scrolled .menu-toggle{
