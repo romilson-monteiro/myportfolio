@@ -383,7 +383,7 @@ header .nav ul li a:hover {
 
 .skill-item i:hover {
     transform: scale(1.2); 
-    color: #007bff; 
+    color: #ff9900;
 }
 
 
@@ -637,4 +637,194 @@ header .nav ul li a:hover {
     
   
     
+}
+
+
+
+/* Menu Toggle  */
+
+
+.menu-toggle {
+    display: none; 
+    background: none;
+    border: none;
+    font-size: 2em;
+    color: #efefef;
+    cursor: pointer;
+   
+    
+}
+
+.no-scroll {
+    overflow: hidden;
+
+}
+
+.blur {
+    filter: blur(2px);  
+    pointer-events: none;  
+}
+
+.nav.active ~ .container,
+.nav.active ~ .container * {
+    pointer-events: none;  
+}
+
+.nav.active {
+    pointer-events: auto;  
+}
+
+ 
+.menu-toggle {
+    z-index: 1001;  
+}
+
+
+
+/* Responsividade: Menu para telas menores */
+@media (max-width: 768px) {
+    header.scrolled .menu-toggle{
+       
+        color: #333;
+       
+    }
+
+    header {
+
+        padding: 20px;
+        height: 10vh;
+    }
+
+    header.scrolled .img-logo img {
+     
+        filter: none;
+   
+    }
+    .menu-toggle {
+        display: block;  
+    }
+
+     .nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 10vh;
+        right: -100%;  
+        width: 80%; 
+        height: 100%; 
+        background-color: #2d2d2df3;  
+        
+        color: #fff;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 1000;
+        transition: right 0.5s ease;  
+    }
+
+    .nav ul {
+        flex-direction: column;  
+        gap: 20px;  
+    }
+
+    .nav.active {
+        right: 0;  
+    }
+
+    .nav ul {
+        list-style: none;
+        padding: 0;
+        
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav ul li {
+        margin: 20px 0;
+        color: #fff;
+    }
+
+    .nav ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1.5em;
+        padding: 10px 20px;
+        transition: color 0.3s ease-in-out;
+    }
+
+    header.scrolled .nav ul li a {
+        color: #f5f5f5;  
+    }
+
+  
+}
+
+
+
+
+
+
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    /* Skills Section */
+    .skills-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 colunas */
+        gap: 15px; /* Espaçamento entre os itens */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .skill-item img {
+        width: 50px; /* Ajusta o tamanho dos ícones */
+        height: 50px;
+        margin-bottom: 5px;
+    }
+
+    .skill-item p {
+        font-size: 0.9em; /* Reduz o tamanho do texto */
+    }
+
+    /* About Section */
+    .about-section {
+        padding: 30px 15px; /* Reduz o padding para telas menores */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .about-container {
+        max-width: 90%; /* Reduz a largura máxima */
+    }
+
+    .about-intro,
+    .about-description {
+        font-size: 0.9em; /* Ajusta o tamanho da fonte */
+        line-height: 1.5; /* Melhora a legibilidade */
+        text-align: justify; /* Mantém o alinhamento justificado */
+    }
+
+    /* Contact Section */
+    .contact-section {
+        padding: 20px 15px; /* Reduz o padding */
+        text-align: center; /* Centraliza o conteúdo */
+    }
+
+    .contact-title {
+        font-size: 1.8em; /* Reduz o tamanho do título */
+    }
+
+    .contact-email {
+        font-size: 1.2em; /* Ajusta o tamanho do texto */
+        margin-bottom: 20px; /* Reduz o espaçamento inferior */
+    }
+
+    .social-links {
+        flex-wrap: wrap; /* Permite que os links fiquem em várias linhas */
+        gap: 15px; /* Ajusta o espaçamento entre os itens */
+    }
+
+    .social-links a {
+        font-size: 1em; /* Reduz o tamanho da fonte */
+    }
 }

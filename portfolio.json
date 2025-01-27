@@ -2,7 +2,7 @@
     {
         "id": 1,
         "title": "Assistance Management System",
-        "class": "web hybrid",
+        "class": "web mobile",
         "img_path": "img/projects/assistance-management.png",
         "intro": "A hybrid platform for managing clients and assistance services.",
         "description": "Development of a hybrid assistance management system using Blazor and SQL Server, designed to streamline client and assistance operations. The system supports client registration with detailed information such as addresses, contacts, and emails. Assistance services are tracked, including status updates, photographic records, labor, and materials. Features include detailed reporting on unpaid services and a user-friendly interface for efficient management. The solution is compatible with web, Windows, Mac, iOS, and Android platforms.",
